@@ -1,0 +1,39 @@
+/node_modules
+/public/storage
+/storage/*.key
+/vendor
+
+# Ignoriere die .env-Datei, die sensible Konfigurationen enthält.
+.env
+
+# Ignoriere Logdateien.
+storage/logs/*.log
+
+# Cache-Dateien
+bootstrap/cache/*.php
+
+# Ignoriere IDE-spezifische Dateien.
+.idea
+*.swp
+*.swo
+
+# Ignoriere Betriebssystem-Dateien.
+.DS_Store
+Thumbs.db
+
+# Ignoriere spezifische Artefakte und temporäre Dateien.
+*.tmp
+*.temp
+*.bak
+*.old
+*.orig
+*.rej
+*.sublime-workspace
+*.sublime-project
+
+# Ignoriere Composer-Lockdatei, falls gewünscht (optional, normalerweise sollte diese versioniert werden)
+# composer.lock
+
+# Ignoriere Tests und Coverage, falls erstellt.
+phpunit.result.cache
+coverage/
